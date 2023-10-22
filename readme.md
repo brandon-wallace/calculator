@@ -2,7 +2,7 @@
 
 ![screenshot_1](screenshot1.png)
 
-### clone
+### Clone
 
 ```
 $ git clone git@github.com:brandon-wallace/calculator.git
@@ -10,7 +10,7 @@ $ git clone git@github.com:brandon-wallace/calculator.git
 $ cd calculator/
 ```
 
-### compile
+### Compile
 
 ```
 $ make clean
@@ -24,4 +24,10 @@ $ make
 
 ```
 $ ./calculator
+```
+
+### Debug
+
+```
+$ make debug
 ```
