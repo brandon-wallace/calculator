@@ -11,6 +11,7 @@ int main()
     std::cout << "╔═══════════════════════════╗" << '\n';
     std::cout << "║  COMMAND LINE CALCULATOR  ║" << '\n';
     std::cout << "╚═══════════════════════════╝" << '\n';
+
     int answer{ selectOperation() };
     int n1{};
     int n2{};

@@ -1,5 +1,6 @@
 
-float divide(int n1, int n2)
+// divide divides two floats
+double divide(int n1, int n2)
 {
     return n1 / n2;
 }

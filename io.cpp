@@ -1,5 +1,6 @@
 #include <iostream>
 
+// isNumber validate input is a number
 bool isNumber(int input)
 {
     std::string str = std::to_string(input);
@@ -11,6 +12,7 @@ bool isNumber(int input)
     return false;
 }
 
+// selectOperation displays an enumerated list of options to select from 
 int selectOperation()
 {
     std::cout << " Please select a number (1-5)."
@@ -26,6 +28,7 @@ int selectOperation()
     return answer;
 }
 
+// getIntFromUser gets a number from a standand input
 int getIntFromUser()
 {
     std::cout << " Enter a number: ";

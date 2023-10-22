@@ -1,6 +1,6 @@
 #ifndef DIVIDE_H
 #define DIVIDE_H
 
-int divide(int, int);
+double divide(int, int);
 
 #endif
